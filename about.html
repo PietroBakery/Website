@@ -18,11 +18,12 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-    background-color: #b6f1e6; /* Green */
+    background-color: #d8b5b5;
+    opacity: 0.7;
     color: #ffffff;
   }
   .bg-2 { 
-    background-color: #6876c4; /* Dark Blue */
+    background-color: #9792a1; /* Dark Blue */
     color: #ffffff;
   }
   .bg-3 { 
@@ -30,7 +31,7 @@
     color: #555555;
   }
   .bg-4 { 
-    background-color: #525050; /* Black Gray */
+    background-color: #8a8787; /* Black Gray */
     color: #fff;
   }
   .container-fluid {
@@ -68,7 +69,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#">INSTAGRAM</a></li>
         <li><a href="#">FACEBOOK</a></li>
-        <li><a href="#">BLOG</a></li>
+        <li><a href="menu.html">MENU</a></li>
         <li><a href="index.html">HOME</a></li>
 
       </ul>
@@ -79,17 +80,49 @@
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
   <h2 class="margin">ABOUT US</h2>
-  <img src="images/display.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <img src="images/cannoli.jpg" class="img-responsive img-circle margin" style="display:inline" alt="bakery" width="350" height="450">
   <h3>Welcome To Our Bakery</h3>
+  <p>Maybe we're your stop for a morning espresso and a freshly baked italian pastry. Or your favorite lunch spot with a full bakery and deli that serves the most delicious soups, sandwiches, salads, and cannoli. <br>
+    Or we're your go-to gift shop to help supply your friends and co-workers with freshly baked goods that are sure to impress. Whatever it is you need, we are here for you. With only the highest-quality, most wholesome ingredients. <br>
+    We promise to bake each product as though we were serving it at our own family table. Thank you for supporting us, and welcome to the family!<br>
+  <br>
+</p>
 </div>
 
 <!-- Second Container -->
 <div class="container-fluid bg-2 text-center">
-  <h3 class="margin">WHO ARE WE?</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nisi ipsum accusantium labore repudiandae nulla at vero perspiciatis hic recusandae molestias eaque ducimus iste a maxime magnam quis, quam cupiditate. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum voluptas odio repellendus nesciunt laborum repudiandae sed velit necessitatibus, minus ea repellat, ex praesentium doloribus aperiam voluptate at architecto explicabo eius. </p>
-  <a href="#" class="btn btn-default btn-lg">
-    <span class="glyphicon glyphicon-search"></span> WHERE TO FIND US
+  <h3 class="margin">CONTACT US</h3>
+
+  <!-- <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon "></span> CALL
   </a>
+  <p><br> -->
+
+    <div class="container">
+
+      <p>
+        <a href="#">
+          <span class="glyphicon glyphicon-phone-alt"></span>
+        </a> OUR NUMBER: (000)000-0000
+      </p>
+        <p><span class="glyphicon glyphicon-time"></span> OUR HOURS: 8AM - 8PM</p>  
+      </p>
+
+    </div>
+
+
+
+
+
+
+
+      <figure>
+  <p><img src="images/location.png"
+    width="240" height="260"
+    alt="Eiffel tower">
+  <figcaption>4820 TX-121, Ste 100, The Colony, TX 75056</figcaption>
+</figure>
+
 </div>
 
 <!-- Third Container (Grid) -->
@@ -116,7 +149,33 @@
 
 <!-- Footer -->
 <footer class="container-fluid bg-4 text-center">
-  <p>ABOUT US</p> 
+  <p>Follow Us On Social Media <a href="index.html" title="PietroItalianBakery" target="_blank" class="w3-hover-text-green">@pietroitalianbakery</a></p>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      height: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      display: inline-table;
+    }
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+      border-radius: 12px;
+    }
+    .fa-instagram {
+  background: linear-gradient(rgb(211, 131, 26), rgb(163, 15, 139), rgb(107, 66, 173));
+  color: white;
+  border-radius: 12px;
+  
+}
+    </style>
+    <a href="#" class="fa fa-facebook"></a>
+    <a href="#" class="fa fa-instagram"></a>
 </footer>
 
 </body>
